@@ -1,2 +1,3 @@
 import os
-print(os.listdir())
+print(f"Python is running in: {os.getcwd()}")
+print(f"Contents it sees: {os.listdir('.')}")
